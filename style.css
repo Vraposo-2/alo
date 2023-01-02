@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #9b9b9b;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+span{
+    font-size: 1.6rem;
+    color: rgb(254, 253, 253);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.border{
+    height: 36.9rem;
+    width: 29.0rem;
+    background: transparent;
+    border-radius: 1.0rem;
+    transition: border 1s;
+    position: relative;
+}
+
+
+.border:hover{
+    border: 1px solid #fff;
+}
+
+.card{
+    height: 37.9rem;
+    width: 30.0rem;
+    background: #808080;
+    border-radius: 1.0rem;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 7.0rem 6.3rem -6.0rem #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.card0{
+    background: url(./assets/yato.jpg) center center no-repeat;
+    background-size: 30.0rem;
+}
+
+.card0:hover{
+    background: url(./assets/yato.jpg) center bottom no-repeat;
+    background-size: 50.0rem;
+    
+}
+
+.card0:hover h2{
+    opacity: 1;
+    color: rgb(194, 90, 90);
+    
+}
+
+.card0:hover .g{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.card1{
+    background: url(./assets/aizen.JPG) center center no-repeat;
+    background-size: 30.0rem;
+}
+
+.card1:hover{
+    background: url(./assets/aizen.JPG) top center no-repeat;
+    background-size: 50.0rem;
+}
+
+.card1:hover h2{
+    opacity: 1;
+    color: rgb(92, 214, 94);
+}
+
+.card1:hover .g{
+    opacity: 1;
+}
+
+
+
+.card2{
+    background: url(./assets/alduim.jpg) center center no-repeat;
+    background-size: 30.0rem;
+}
+
+.card2:hover{
+    background: url(./assets/alduim.jpg) left top no-repeat;
+    background-size: 50.0rem;
+}
+
+.card2:hover h2{
+    opacity: 1;
+    color: rgb(209, 211, 71);
+}
+
+.card2:hover .g{
+    opacity: 1;
+}
+
+
+
+.card3{
+    background: url(./assets/yori.jpg) center center no-repeat;
+    background-size: 30.0rem;
+}
+
+.card3:hover{
+    background: url(./assets/yori.jpg) top left   no-repeat;
+    background-size: 50.0rem;
+}
+
+.card3:hover h2{
+    opacity: 1;
+    color: rgb(138, 223, 47);
+}
+
+.card3:hover .g{
+    opacity: 1;
+}
+
+
+
+
+.card4{
+    background: url(./assets/yuki.jpg) center center no-repeat;
+    background-size: 30.0rem;
+}
+
+.card4:hover{
+    background: url(./assets/yuki.jpg) right top no-repeat;
+    background-size: 50.0rem;
+}
+
+.card4:hover h2{
+    opacity: 1;
+    color: rgb(194, 90, 90);
+
+}
+
+.card4:hover .g{
+    opacity: 1;
+}
+
+
+
+
+h2{
+    color: #fff;
+    margin-left: 2.0rem;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.g{
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.texto{
+    position: absolute;
+    margin-left: 1.0rem;
+    color: #fff;
+    height: 13.0rem;
+    top: 22.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .card0:hover{
+        background-size: 25.0rem;
+    }
+
+    .card1:hover{
+        background-size: 30.0rem;
+        
+    }
+
+    .card1 h2{
+        font-size: 2rem;
+    }
+
+    .card2:hover{
+        background-size: 30.0rem;
+    }
+    .card3:hover{
+        background-size: 25.0rem;
+    }
+
+    #b{
+        font-size: 1rem;
+    }
+   
+    .card4:hover{
+        background-size: 25.0rem;
+    
+    }
+
+    #c{
+        font-size: 1.3rem;
+    }
+
+      
+}
+
+
+
